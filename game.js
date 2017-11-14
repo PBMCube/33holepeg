@@ -1,12 +1,15 @@
-(function($){
+//Model this for Phaser v2 & v3; very clean format
 
+(function($){
+	//Adaot fir GANEAPP
 	function Game(){
 
-
+		//GAMEAPP variables
 		var BOARD_SIZE = 7;
 		var board;
 		var moves = 0;
 
+		//Move to Play State; lines 12 to 229
 		function init(){
 			createBoard();
 			renderBoard();
